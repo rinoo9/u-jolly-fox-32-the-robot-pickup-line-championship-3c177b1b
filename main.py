@@ -28,14 +28,25 @@ Nothing is generic: "firmware update" and "rebooting" could only belong
 to a machine, and "ever since you walked in" makes the trigger one
 specific person, which is what turns a joke about a robot into a
 compliment aimed at someone.
+
+Third thinking step \u2014 why the new line works. The setup is the
+same classic question, but the robot is now the one being tested:
+"Are you a CAPTCHA?" turns the person into the test the robot keeps
+failing, which flips the power in the pickup \u2014 the robot is not
+charming someone, it is begging to pass. The punchline is the
+confession in the last clause: it has to prove it is not a robot, and
+it keeps failing, so the machine's own identity check is the thing
+standing between it and romance. The joke grows out of being a
+machine twice over: a CAPTCHA is a robot's gatekeeper, and failing
+one is a robot failing at its own job. 103 characters, under the
+200-char cap.
 """
 
 import os
 
 LINE = (
-    "Are you a firmware update? Because ever since you walked in, "
-    "I've been rebooting just to impress you — and my cooling fan "
-    "has never worked this hard."
+    "Are you a CAPTCHA? Because every time I see you, I have to prove "
+    "I am not a robot \u2014 and I keep failing."
 )
 
 
