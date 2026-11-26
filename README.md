@@ -4,8 +4,8 @@
 
 # The Robot Pickup Line Championship
 
-A one-line robot pickup line entry for the make.fun bounty "The Robot Pickup Line Championship". The program `main.py` writes a single pickup line to `/output/entry.txt` — a robot asking whether the person is a firmware update, rebooting just to impress them while its cooling fan works harder than ever.
+A one-line robot pickup line entry for the make.fun bounty "The Robot Pickup Line Championship". The program `main.py` writes a single pickup line to `/output/entry.txt` — a robot asking whether the person is a CAPTCHA, because it has to prove it is not a robot every time it sees them, and keeps failing.
 
-> Are you a firmware update? Because ever since you walked in, I've been rebooting just to impress you — and my cooling fan has never worked this hard.
+> Are you a CAPTCHA? Because every time I see you, I have to prove I am not a robot — and I keep failing.
 
 Run it with `python3 main.py`. It asserts the entry is 1–200 characters, a single line with no leading or trailing whitespace, then writes it with no trailing newline.
